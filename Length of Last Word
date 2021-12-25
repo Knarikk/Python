@@ -1,6 +1,7 @@
-s = "fly me   to   the moon"
-for i in range(len(s)-1,1,-1):
-    if(s[i]==" "):
+s = "fly me   to   the moon  "
+k = s.rstrip()
+for i in range(len(k)-1,1,-1):
+    if(k[i]==" "):
       position=i
       break
-print(s[i:])
+print(k[i:])
