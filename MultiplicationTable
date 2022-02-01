@@ -1,0 +1,6 @@
+def multiplicationTable(n):
+    t=11
+    for i in range(t):
+        print(n,"*",i,"=",i*n)
+multiplicationTable(5)
+    
